@@ -1,0 +1,26 @@
+table {
+color: black;
+    width: 370px;
+    border: 1px solid grey;
+    text-align: center;
+    margin-top: 20px;
+}
+
+table th {
+  border: 1px solid grey;
+    background-color: #00bcd4;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 5px 0 5px 0;
+}
+table td {
+  border: 1px solid grey;
+    font-weight: 300;
+    font-size: 13px;
+    padding: 5px 0 5px 0;
+}
+
+table tr:nth-child(even) {
+background-color: rgb(255, 255, 137);
+}
